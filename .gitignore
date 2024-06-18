@@ -1,0 +1,7 @@
+# OSX
+#
+.DS_Store
+DerivedData
+xcuserdata
+*.xccheckout
+*.xcuserstate
