@@ -20,6 +20,8 @@
 		DD7993BE2C21FB8B0051B44A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7993AF2C21FB8B0051B44A /* String+Extension.swift */; };
 		DD7993BF2C21FB8B0051B44A /* NSMutableAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7993B02C21FB8B0051B44A /* NSMutableAttributedString+Extension.swift */; };
 		DD7993C52C21FB8B0051B44A /* ContentSizedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7993B72C21FB8B0051B44A /* ContentSizedTableView.swift */; };
+		DD907FC02C2B618C0059BDCB /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD907FBF2C2B618C0059BDCB /* Date+Extension.swift */; };
+		DD907FC22C2B61A50059BDCB /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD907FC12C2B61A50059BDCB /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		DD7993AF2C21FB8B0051B44A /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		DD7993B02C21FB8B0051B44A /* NSMutableAttributedString+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extension.swift"; sourceTree = "<group>"; };
 		DD7993B72C21FB8B0051B44A /* ContentSizedTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentSizedTableView.swift; sourceTree = "<group>"; };
+		DD907FBF2C2B618C0059BDCB /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		DD907FC12C2B61A50059BDCB /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +151,9 @@
 			children = (
 				DD7993AC2C21FB8B0051B44A /* UIFont+Extension.swift */,
 				DD7993AD2C21FB8B0051B44A /* UIColor+Extension.swift */,
+				DD907FBF2C2B618C0059BDCB /* Date+Extension.swift */,
 				DD7993AE2C21FB8B0051B44A /* UIViewController+Extension.swift */,
+				DD907FC12C2B61A50059BDCB /* UIView+Extension.swift */,
 				DD7993AF2C21FB8B0051B44A /* String+Extension.swift */,
 				DD7993B02C21FB8B0051B44A /* NSMutableAttributedString+Extension.swift */,
 			);
@@ -309,6 +315,8 @@
 				DD7993BE2C21FB8B0051B44A /* String+Extension.swift in Sources */,
 				DD7993C52C21FB8B0051B44A /* ContentSizedTableView.swift in Sources */,
 				DD7993BC2C21FB8B0051B44A /* UIColor+Extension.swift in Sources */,
+				DD907FC22C2B61A50059BDCB /* UIView+Extension.swift in Sources */,
+				DD907FC02C2B618C0059BDCB /* Date+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
