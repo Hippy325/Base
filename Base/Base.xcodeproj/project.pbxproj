@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD0BDAAD2C2605AE00F94189 /* Iceland-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD0BDAAC2C2605AD00F94189 /* Iceland-Regular.ttf */; };
+		DD0BDAAE2C2605B600F94189 /* Iceland-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD0BDAAC2C2605AD00F94189 /* Iceland-Regular.ttf */; };
+		DD0BDAAF2C2605B700F94189 /* Iceland-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD0BDAAC2C2605AD00F94189 /* Iceland-Regular.ttf */; };
+		DD0BDAB22C260A5300F94189 /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0BDAB12C260A5300F94189 /* NewEventViewController.swift */; };
+		DD0BDAB42C260C6C00F94189 /* NewEventBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0BDAB32C260C6C00F94189 /* NewEventBodyView.swift */; };
+		DD0BDAB62C260CD100F94189 /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0BDAB52C260CD100F94189 /* BaseTextField.swift */; };
+		DD0BDAB82C26104700F94189 /* InfoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0BDAB72C26104700F94189 /* InfoTextField.swift */; };
+		DD1CFA512C24C171003FAD02 /* SportTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1CFA502C24C171003FAD02 /* SportTypeView.swift */; };
+		DD1CFA532C24DD2E003FAD02 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1CFA522C24DD2E003FAD02 /* MainTableViewCell.swift */; };
+		DD1CFA552C24DEFD003FAD02 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1CFA542C24DEFD003FAD02 /* UIView+Extension.swift */; };
+		DD67D69C2C26CB5500CE3A9B /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD67D69B2C26CB5500CE3A9B /* CalendarViewController.swift */; };
+		DD67D69E2C26CB9700CE3A9B /* CalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD67D69D2C26CB9700CE3A9B /* CalendarTableViewCell.swift */; };
+		DD67D6A02C26CD7800CE3A9B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD67D69F2C26CD7800CE3A9B /* Models.swift */; };
+		DD67D6A22C26D48500CE3A9B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD67D6A12C26D48500CE3A9B /* SettingsView.swift */; };
+		DD7586632C24A48B000374C7 /* GrandHotel-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD7586622C24A488000374C7 /* GrandHotel-Regular.otf */; };
+		DD7586642C24A48E000374C7 /* GrandHotel-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD7586622C24A488000374C7 /* GrandHotel-Regular.otf */; };
+		DD7586652C24A48E000374C7 /* GrandHotel-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD7586622C24A488000374C7 /* GrandHotel-Regular.otf */; };
+		DD7586682C24A6C7000374C7 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7586672C24A6C7000374C7 /* TitleView.swift */; };
 		DD79937B2C21FAC80051B44A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD79937A2C21FAC80051B44A /* AppDelegate.swift */; };
 		DD79937D2C21FAC80051B44A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD79937C2C21FAC80051B44A /* SceneDelegate.swift */; };
 		DD7993842C21FAC90051B44A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7993832C21FAC90051B44A /* Assets.xcassets */; };
@@ -20,8 +38,21 @@
 		DD7993BE2C21FB8B0051B44A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7993AF2C21FB8B0051B44A /* String+Extension.swift */; };
 		DD7993BF2C21FB8B0051B44A /* NSMutableAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7993B02C21FB8B0051B44A /* NSMutableAttributedString+Extension.swift */; };
 		DD7993C52C21FB8B0051B44A /* ContentSizedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7993B72C21FB8B0051B44A /* ContentSizedTableView.swift */; };
-		DD907FC02C2B618C0059BDCB /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD907FBF2C2B618C0059BDCB /* Date+Extension.swift */; };
-		DD907FC22C2B61A50059BDCB /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD907FC12C2B61A50059BDCB /* UIView+Extension.swift */; };
+		DD7993CF2C2203570051B44A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7993CE2C2203570051B44A /* MainViewController.swift */; };
+		DD907FBE2C2B5D150059BDCB /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD907FBD2C2B5D150059BDCB /* Date+Extension.swift */; };
+		DDB30B5A2C2713920012B9C3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB30B592C2713920012B9C3 /* SettingsViewController.swift */; };
+		DDB30B5C2C2713EE0012B9C3 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB30B5B2C2713EE0012B9C3 /* BaseButton.swift */; };
+		DDB30B5F2C27200B0012B9C3 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB30B5E2C27200B0012B9C3 /* TextViewController.swift */; };
+		DDB30B612C2722630012B9C3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDB30B602C2722630012B9C3 /* Localizable.strings */; };
+		DDB30B642C2726320012B9C3 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB30B632C2726320012B9C3 /* NotificationsViewController.swift */; };
+		DDB30B662C27269A0012B9C3 /* NotificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB30B652C27269A0012B9C3 /* NotificationButton.swift */; };
+		DDB30B692C272AA60012B9C3 /* ProfileViewContreoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB30B682C272AA60012B9C3 /* ProfileViewContreoller.swift */; };
+		DDD651E52C280A2800540A49 /* BonusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD651E42C280A2800540A49 /* BonusViewController.swift */; };
+		DDD651E72C280B1000540A49 /* DaysBonusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD651E62C280B1000540A49 /* DaysBonusView.swift */; };
+		DDD651E92C280B9000540A49 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD651E82C280B9000540A49 /* DayView.swift */; };
+		DDD651EB2C28241400540A49 /* ChooseBonusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD651EA2C28241400540A49 /* ChooseBonusView.swift */; };
+		DDD651ED2C282C2D00540A49 /* ChooseImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD651EC2C282C2D00540A49 /* ChooseImageView.swift */; };
+		DDD651EF2C283CC400540A49 /* EventsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD651EE2C283CC400540A49 /* EventsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +73,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD0BDAAC2C2605AD00F94189 /* Iceland-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Iceland-Regular.ttf"; sourceTree = "<group>"; };
+		DD0BDAB12C260A5300F94189 /* NewEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventViewController.swift; sourceTree = "<group>"; };
+		DD0BDAB32C260C6C00F94189 /* NewEventBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventBodyView.swift; sourceTree = "<group>"; };
+		DD0BDAB52C260CD100F94189 /* BaseTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
+		DD0BDAB72C26104700F94189 /* InfoTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTextField.swift; sourceTree = "<group>"; };
+		DD1CFA502C24C171003FAD02 /* SportTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportTypeView.swift; sourceTree = "<group>"; };
+		DD1CFA522C24DD2E003FAD02 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		DD1CFA542C24DEFD003FAD02 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		DD67D69B2C26CB5500CE3A9B /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		DD67D69D2C26CB9700CE3A9B /* CalendarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTableViewCell.swift; sourceTree = "<group>"; };
+		DD67D69F2C26CD7800CE3A9B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		DD67D6A12C26D48500CE3A9B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DD7586622C24A488000374C7 /* GrandHotel-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GrandHotel-Regular.otf"; sourceTree = "<group>"; };
+		DD7586672C24A6C7000374C7 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		DD7993772C21FAC80051B44A /* Base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Base.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD79937A2C21FAC80051B44A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD79937C2C21FAC80051B44A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,8 +104,21 @@
 		DD7993AF2C21FB8B0051B44A /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		DD7993B02C21FB8B0051B44A /* NSMutableAttributedString+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extension.swift"; sourceTree = "<group>"; };
 		DD7993B72C21FB8B0051B44A /* ContentSizedTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentSizedTableView.swift; sourceTree = "<group>"; };
-		DD907FBF2C2B618C0059BDCB /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
-		DD907FC12C2B61A50059BDCB /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		DD7993CE2C2203570051B44A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DD907FBD2C2B5D150059BDCB /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		DDB30B592C2713920012B9C3 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DDB30B5B2C2713EE0012B9C3 /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		DDB30B5E2C27200B0012B9C3 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		DDB30B602C2722630012B9C3 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		DDB30B632C2726320012B9C3 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		DDB30B652C27269A0012B9C3 /* NotificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationButton.swift; sourceTree = "<group>"; };
+		DDB30B682C272AA60012B9C3 /* ProfileViewContreoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewContreoller.swift; sourceTree = "<group>"; };
+		DDD651E42C280A2800540A49 /* BonusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusViewController.swift; sourceTree = "<group>"; };
+		DDD651E62C280B1000540A49 /* DaysBonusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysBonusView.swift; sourceTree = "<group>"; };
+		DDD651E82C280B9000540A49 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		DDD651EA2C28241400540A49 /* ChooseBonusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseBonusView.swift; sourceTree = "<group>"; };
+		DDD651EC2C282C2D00540A49 /* ChooseImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseImageView.swift; sourceTree = "<group>"; };
+		DDD651EE2C283CC400540A49 /* EventsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +146,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD0BDAB02C260A3200F94189 /* NewEventScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DD0BDAB12C260A5300F94189 /* NewEventViewController.swift */,
+				DD0BDAB32C260C6C00F94189 /* NewEventBodyView.swift */,
+				DD0BDAB72C26104700F94189 /* InfoTextField.swift */,
+			);
+			path = NewEventScreen;
+			sourceTree = "<group>";
+		};
+		DD67D69A2C26CB4200CE3A9B /* CalendarScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DD67D69B2C26CB5500CE3A9B /* CalendarViewController.swift */,
+				DD67D69D2C26CB9700CE3A9B /* CalendarTableViewCell.swift */,
+			);
+			path = CalendarScreen;
+			sourceTree = "<group>";
+		};
+		DD75865F2C24A413000374C7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DD0BDAAC2C2605AD00F94189 /* Iceland-Regular.ttf */,
+				DD7586622C24A488000374C7 /* GrandHotel-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DD7586662C24A659000374C7 /* BaseForProject */ = {
+			isa = PBXGroup;
+			children = (
+				DD7586672C24A6C7000374C7 /* TitleView.swift */,
+				DD1CFA502C24C171003FAD02 /* SportTypeView.swift */,
+				DD1CFA522C24DD2E003FAD02 /* MainTableViewCell.swift */,
+				DD0BDAB52C260CD100F94189 /* BaseTextField.swift */,
+				DD67D69F2C26CD7800CE3A9B /* Models.swift */,
+				DD67D6A12C26D48500CE3A9B /* SettingsView.swift */,
+				DDB30B5B2C2713EE0012B9C3 /* BaseButton.swift */,
+				DDB30B602C2722630012B9C3 /* Localizable.strings */,
+				DDD651EE2C283CC400540A49 /* EventsModel.swift */,
+			);
+			path = BaseForProject;
+			sourceTree = "<group>";
+		};
 		DD79936E2C21FAC80051B44A = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +213,15 @@
 		DD7993792C21FAC80051B44A /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				DDD651E32C28098B00540A49 /* BonusScreen */,
+				DDB30B672C272A920012B9C3 /* ProfileScreen */,
+				DDB30B622C2726170012B9C3 /* NotificationsScreen */,
+				DDB30B5D2C271FE90012B9C3 /* TextScreen */,
+				DDB30B582C27137A0012B9C3 /* SettingsScreen */,
+				DD67D69A2C26CB4200CE3A9B /* CalendarScreen */,
+				DD0BDAB02C260A3200F94189 /* NewEventScreen */,
+				DD7586662C24A659000374C7 /* BaseForProject */,
+				DD7993CD2C22033C0051B44A /* MainScreen */,
 				DD7993C92C21FDF00051B44A /* Application */,
 				DD7993AA2C21FB8B0051B44A /* Utils */,
 				DD7993832C21FAC90051B44A /* Assets.xcassets */,
@@ -140,6 +251,7 @@
 		DD7993AA2C21FB8B0051B44A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				DD75865F2C24A413000374C7 /* Fonts */,
 				DD7993AB2C21FB8B0051B44A /* Extension */,
 				DD7993B12C21FB8B0051B44A /* View */,
 			);
@@ -177,6 +289,59 @@
 				DD79937C2C21FAC80051B44A /* SceneDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		DD7993CD2C22033C0051B44A /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DD7993CE2C2203570051B44A /* MainViewController.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		DDB30B582C27137A0012B9C3 /* SettingsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DDB30B592C2713920012B9C3 /* SettingsViewController.swift */,
+			);
+			path = SettingsScreen;
+			sourceTree = "<group>";
+		};
+		DDB30B5D2C271FE90012B9C3 /* TextScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DDB30B5E2C27200B0012B9C3 /* TextViewController.swift */,
+			);
+			path = TextScreen;
+			sourceTree = "<group>";
+		};
+		DDB30B622C2726170012B9C3 /* NotificationsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DDB30B632C2726320012B9C3 /* NotificationsViewController.swift */,
+				DDB30B652C27269A0012B9C3 /* NotificationButton.swift */,
+			);
+			path = NotificationsScreen;
+			sourceTree = "<group>";
+		};
+		DDB30B672C272A920012B9C3 /* ProfileScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DDB30B682C272AA60012B9C3 /* ProfileViewContreoller.swift */,
+			);
+			path = ProfileScreen;
+			sourceTree = "<group>";
+		};
+		DDD651E32C28098B00540A49 /* BonusScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DDD651E42C280A2800540A49 /* BonusViewController.swift */,
+				DDD651E62C280B1000540A49 /* DaysBonusView.swift */,
+				DDD651E82C280B9000540A49 /* DayView.swift */,
+				DDD651EA2C28241400540A49 /* ChooseBonusView.swift */,
+				DDD651EC2C282C2D00540A49 /* ChooseImageView.swift */,
+			);
+			path = BonusScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,7 +448,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB30B612C2722630012B9C3 /* Localizable.strings in Resources */,
+				DD7586632C24A48B000374C7 /* GrandHotel-Regular.otf in Resources */,
 				DD7993872C21FAC90051B44A /* LaunchScreen.storyboard in Resources */,
+				DD0BDAAD2C2605AE00F94189 /* Iceland-Regular.ttf in Resources */,
 				DD7993842C21FAC90051B44A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +460,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0BDAAE2C2605B600F94189 /* Iceland-Regular.ttf in Resources */,
+				DD7586642C24A48E000374C7 /* GrandHotel-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +469,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0BDAAF2C2605B700F94189 /* Iceland-Regular.ttf in Resources */,
+				DD7586652C24A48E000374C7 /* GrandHotel-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,16 +481,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD67D6A22C26D48500CE3A9B /* SettingsView.swift in Sources */,
 				DD7993BB2C21FB8B0051B44A /* UIFont+Extension.swift in Sources */,
+				DD1CFA552C24DEFD003FAD02 /* UIView+Extension.swift in Sources */,
+				DDB30B692C272AA60012B9C3 /* ProfileViewContreoller.swift in Sources */,
+				DD0BDAB62C260CD100F94189 /* BaseTextField.swift in Sources */,
+				DDD651E92C280B9000540A49 /* DayView.swift in Sources */,
 				DD79937B2C21FAC80051B44A /* AppDelegate.swift in Sources */,
+				DDB30B642C2726320012B9C3 /* NotificationsViewController.swift in Sources */,
+				DD67D69E2C26CB9700CE3A9B /* CalendarTableViewCell.swift in Sources */,
+				DD907FBE2C2B5D150059BDCB /* Date+Extension.swift in Sources */,
+				DD1CFA512C24C171003FAD02 /* SportTypeView.swift in Sources */,
+				DD0BDAB42C260C6C00F94189 /* NewEventBodyView.swift in Sources */,
+				DD67D69C2C26CB5500CE3A9B /* CalendarViewController.swift in Sources */,
+				DDB30B5C2C2713EE0012B9C3 /* BaseButton.swift in Sources */,
+				DD0BDAB22C260A5300F94189 /* NewEventViewController.swift in Sources */,
+				DDD651EF2C283CC400540A49 /* EventsModel.swift in Sources */,
 				DD79937D2C21FAC80051B44A /* SceneDelegate.swift in Sources */,
+				DDD651ED2C282C2D00540A49 /* ChooseImageView.swift in Sources */,
 				DD7993BD2C21FB8B0051B44A /* UIViewController+Extension.swift in Sources */,
+				DDD651E72C280B1000540A49 /* DaysBonusView.swift in Sources */,
 				DD7993BF2C21FB8B0051B44A /* NSMutableAttributedString+Extension.swift in Sources */,
+				DDB30B5A2C2713920012B9C3 /* SettingsViewController.swift in Sources */,
+				DD0BDAB82C26104700F94189 /* InfoTextField.swift in Sources */,
 				DD7993BE2C21FB8B0051B44A /* String+Extension.swift in Sources */,
+				DD7993CF2C2203570051B44A /* MainViewController.swift in Sources */,
 				DD7993C52C21FB8B0051B44A /* ContentSizedTableView.swift in Sources */,
 				DD7993BC2C21FB8B0051B44A /* UIColor+Extension.swift in Sources */,
-				DD907FC22C2B61A50059BDCB /* UIView+Extension.swift in Sources */,
-				DD907FC02C2B618C0059BDCB /* Date+Extension.swift in Sources */,
+				DD1CFA532C24DD2E003FAD02 /* MainTableViewCell.swift in Sources */,
+				DD7586682C24A6C7000374C7 /* TitleView.swift in Sources */,
+				DD67D6A02C26CD7800CE3A9B /* Models.swift in Sources */,
+				DDB30B662C27269A0012B9C3 /* NotificationButton.swift in Sources */,
+				DDD651EB2C28241400540A49 /* ChooseBonusView.swift in Sources */,
+				DDD651E52C280A2800540A49 /* BonusViewController.swift in Sources */,
+				DDB30B5F2C27200B0012B9C3 /* TextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +691,7 @@
 				DEVELOPMENT_TEAM = 39SH4B66FT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Base/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "The application requests access to the gallery";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -522,6 +719,7 @@
 				DEVELOPMENT_TEAM = 39SH4B66FT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Base/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "The application requests access to the gallery";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

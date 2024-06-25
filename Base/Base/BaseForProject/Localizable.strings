@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  Base
+
+  Created by Тигран Гарибян on 22.06.2024.
+  
+*/
+
+"aboutText" = "About the App
+
+Welcome to our Sports Planner App, designed to help cricket players and fans manage their schedules effortlessly. With our app, you can:
+
+View Upcoming Events: Stay informed about upcoming matches and training sessions with our easy-to-read event cards.
+- Plan Matches and Training: Schedule new matches and training sessions with just a few taps. Invite friends or organize events with other teams seamlessly.
+- Calendar Integration: Sync your sports events with your personal calendar to ensure you never miss a game or training session.
+- Personal Profile: Keep track of your personal information, past events, and achievements all in one place.
+- Customizable Settings: Manage your account, notifications, and privacy preferences to tailor the app to your needs.
+
+Our app is your go-to tool for staying organized and focused on what you love most—playing and enjoying cricket. Join our community and take your game to the next level!";
+
+"policyText" = "";

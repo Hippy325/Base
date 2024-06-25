@@ -11,11 +11,20 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        BonusModel.setDay()
+        if !UserDefaults.standard.bool(forKey: "isNotFirstOpenApp") {
+            EventModel.saveCustomEvents()
+            SportsModel.saveCustomSports()
+            UserDefaults.standard.setValue(true, forKey: "isNotFirstOpenApp")
+        }
         guard let scene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: scene)
         window?.makeKeyAndVisible()
+        let navigationController = UINavigationController()
+        navigationController.viewControllers = [MainViewController()]
+        navigationController.isNavigationBarHidden = true
+        window?.rootViewController = navigationController
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
