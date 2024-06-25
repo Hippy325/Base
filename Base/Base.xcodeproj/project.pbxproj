@@ -156,6 +156,8 @@
 				DD907FC12C2B61A50059BDCB /* UIView+Extension.swift */,
 				DD7993AF2C21FB8B0051B44A /* String+Extension.swift */,
 				DD7993B02C21FB8B0051B44A /* NSMutableAttributedString+Extension.swift */,
+				DD1CFA542C24DEFD003FAD02 /* UIView+Extension.swift */,
+				DD907FBD2C2B5D150059BDCB /* Date+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
